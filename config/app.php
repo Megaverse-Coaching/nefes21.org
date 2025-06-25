@@ -162,7 +162,6 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
         Spatie\Permission\PermissionServiceProvider::class,
-        Barryvdh\Debugbar\ServiceProvider::class,
         Jorenvh\Share\Providers\ShareServiceProvider::class,
         ProtoneMedia\LaravelFFMpeg\Support\ServiceProvider::class,
         /*
@@ -229,7 +228,6 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
-        'Debugbar' => Barryvdh\Debugbar\Facades\Debugbar::class,
         'Share' => Jorenvh\Share\ShareFacade::class,
         'FFMpeg' => ProtoneMedia\LaravelFFMpeg\Support\FFMpeg::class,
     ],
